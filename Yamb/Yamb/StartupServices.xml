@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StartupServicesManifest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="CustomMetrics_MinReplicaSetSize" DefaultValue="3" />
+    <Parameter Name="CustomMetrics_PartitionCount" DefaultValue="1" />
+    <Parameter Name="CustomMetrics_TargetReplicaSetSize" DefaultValue="3" />
+    <Parameter Name="YambStatistics_InstanceCount" DefaultValue="-1" />
+    <Parameter Name="YambPlatform_InstanceCount" DefaultValue="1" />
+    <Parameter Name="YambSheetData_MinReplicaSetSize" DefaultValue="3" />
+    <Parameter Name="YambSheetData_PartitionCount" DefaultValue="10" />
+    <Parameter Name="YambSheetData_TargetReplicaSetSize" DefaultValue="3" />
+    <Parameter Name="YambGame_InstanceCount" DefaultValue="1" />
+    <Parameter Name="YambUserData_MinReplicaSetSize" DefaultValue="3" />
+    <Parameter Name="YambUserData_PartitionCount" DefaultValue="5" />
+    <Parameter Name="YambUserData_TargetReplicaSetSize" DefaultValue="3" />
+    <Parameter Name="DiceThrowerActorService_PartitionCount" DefaultValue="1" />
+    <Parameter Name="DiceThrowerActorService_MinReplicaSetSize" DefaultValue="3" />
+    <Parameter Name="DiceThrowerActorService_TargetReplicaSetSize" DefaultValue="3" />
+  </Parameters>
+  <Services>
+    <Service Name="CustomMetrics" ServicePackageActivationMode="ExclusiveProcess">
+      <StatefulService ServiceTypeName="CustomMetricsType" TargetReplicaSetSize="[CustomMetrics_TargetReplicaSetSize]" MinReplicaSetSize="[CustomMetrics_MinReplicaSetSize]">
+        <SingletonPartition />
+      </StatefulService>
+    </Service>
+    <Service Name="YambStatistics" ServicePackageActivationMode="ExclusiveProcess">
+      <StatelessService ServiceTypeName="YambStatisticsType" InstanceCount="[YambStatistics_InstanceCount]">
+        <SingletonPartition />
+      </StatelessService>
+    </Service>
+    <Service Name="YambPlatform" ServicePackageActivationMode="ExclusiveProcess">
+      <StatelessService ServiceTypeName="YambPlatformType" InstanceCount="[YambPlatform_InstanceCount]">
+        <SingletonPartition />
+      </StatelessService>
+    </Service>
+    <Service Name="YambSheetData" ServicePackageActivationMode="ExclusiveProcess">
+      <StatefulService ServiceTypeName="YambSheetDataType" TargetReplicaSetSize="[YambSheetData_TargetReplicaSetSize]" MinReplicaSetSize="[YambSheetData_MinReplicaSetSize]">
+        <UniformInt64Partition PartitionCount="10" LowKey="0" HighKey="9" />
+      </StatefulService>
+    </Service>
+    <Service Name="YambGame" ServicePackageActivationMode="ExclusiveProcess">
+      <StatelessService ServiceTypeName="YambGameType" InstanceCount="[YambGame_InstanceCount]">
+        <SingletonPartition />
+      </StatelessService>
+    </Service>
+    <Service Name="YambUserData" ServicePackageActivationMode="ExclusiveProcess">
+      <StatefulService ServiceTypeName="YambUserDataType" TargetReplicaSetSize="3" MinReplicaSetSize="3">
+        <UniformInt64Partition PartitionCount="5" LowKey="0" HighKey="4" />
+      </StatefulService>
+    </Service>
+    <Service Name="DiceThrowerActorService" GeneratedIdRef="7f4cdb91-0ab3-4b09-a6c6-6904d5ca9610|Persisted">
+      <StatefulService ServiceTypeName="DiceThrowerActorServiceType" TargetReplicaSetSize="[DiceThrowerActorService_TargetReplicaSetSize]" MinReplicaSetSize="[DiceThrowerActorService_MinReplicaSetSize]">
+        <UniformInt64Partition PartitionCount="[DiceThrowerActorService_PartitionCount]" LowKey="-9223372036854775808" HighKey="9223372036854775807" />
+      </StatefulService>
+    </Service>
+  </Services>
+</StartupServicesManifest>

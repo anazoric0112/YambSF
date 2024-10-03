@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="fabric:/Yamb" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="CustomMetrics_ASPNETCORE_ENVIRONMENT" Value="Development" />
+    <Parameter Name="YambUserData_ASPNETCORE_ENVIRONMENT" Value="Development" />
+    <Parameter Name="YambUserData_ASPNETCORE_ENVIRONMENT" Value="Development" />
+    <Parameter Name="YambGame_ASPNETCORE_ENVIRONMENT" Value="Development" />
+    <Parameter Name="YambStatistics_ASPNETCORE_ENVIRONMENT" Value="Development" />
+    <Parameter Name="YambPlatform_ASPNETCORE_ENVIRONMENT" Value="Development" />
+    <Parameter Name="YambSheetData_ASPNETCORE_ENVIRONMENT" Value="Development" />
+    <Parameter Name="YambGame_ASPNETCORE_ENVIRONMENT" Value="Development" />
+    <Parameter Name="YambUserData_ASPNETCORE_ENVIRONMENT" Value="Development" />
+  </Parameters>
+</Application>

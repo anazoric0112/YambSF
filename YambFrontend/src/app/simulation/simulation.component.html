@@ -1,0 +1,16 @@
+
+<h1>Simulation</h1>
+<br><br><br>
+<button (click)="playgame()" class="action-button">
+    Play game simulation
+</button><br><br><br><br>
+<button class="action-button" [disabled]="true">
+    Result: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+</button>
+<button class="action-button" style="margin-left: 50px;">
+    {{result}} 
+</button>
+<br><br><br><br>
+<button (click)="this.router.navigate(['menu'])" class="action-button">
+    Back
+</button>

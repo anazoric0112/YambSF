@@ -1,0 +1,44 @@
+<button class="action-button" (click)="startGame()" [disabled]="moves!=12">
+    Start game
+</button>
+
+<br><br>
+<div class="sheet">
+    <div class="row">
+        <div class="cell" style="border: 0px solid white !important"></div>
+        <div class="cell"> &#x2B07; </div>
+        <div class="cell"> &#x2B06; </div>
+        
+    </div>
+    <div class="row" *ngFor ="let i of availableNumbers">
+        <div class="cell">{{i}}</div>
+        <button class="cell" (click)="writeTo(0,i)" [disabled]="!isNext(0,i)">
+            &nbsp; {{sheet[i-1][0]}} &nbsp;</button>
+        <button class="cell" (click)="writeTo(1,i)" [disabled]="!isNext(1,i)">
+            &nbsp; {{sheet[i-1][1]}} &nbsp;</button>
+    </div>
+    <div class="row">
+        <div class="cell result"> &sum; </div>
+        <div class="cell result">  {{sum[0]}} </div>
+        <div class="cell result">  {{sum[1]}}  </div>
+    </div>
+</div>
+<br>
+
+<button class="dice" *ngFor ="let i of availableNumbers" 
+    [class.saved]="isSavedDice(i-1)"
+    (click)="toggleSavedDice(i-1)"
+    [disabled]="tempDice[i-1]=='' || moves==12">
+    {{ tempDice[i-1] }}
+</button>
+
+<br><br>
+
+<button class="action-button" (click)="throwDice()" [disabled]="throws==3 || moves==12">
+    Throw dice
+</button>
+
+<br><br><br><br>
+<button class="action-button" (click)="this.router.navigate(['menu'])">
+    Back
+</button>

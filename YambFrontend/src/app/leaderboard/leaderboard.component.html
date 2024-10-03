@@ -1,0 +1,40 @@
+<div *ngIf="loaded<4">
+    <h1>Loading..</h1>
+</div>
+
+<div *ngIf="loaded==4">
+    <h1>Your data:</h1>
+    <div class="row">
+        <div class="cell leaderboard-cell result"> Ranking:</div>
+        <div class="cell leaderboard-cell"> &nbsp;{{ranking}}&nbsp;</div> 
+    </div>
+    <div class="row">
+        <div class="cell leaderboard-cell result"> Highscore:</div>
+        <div class="cell leaderboard-cell"> &nbsp;{{highscore}}&nbsp;</div> 
+    </div>
+    <div class="row">
+        <div class="cell leaderboard-cell result"> Average:</div>
+        <div class="cell leaderboard-cell"> &nbsp;{{averagescore}}&nbsp;</div> 
+    </div>
+
+</div>
+<br><br>
+<div *ngIf="loaded==4">
+    <h1>Global ranking:</h1>
+    <div class="row">
+        <div class="cell leaderboard-cell result">Rank</div>
+        <div class="cell leaderboard-cell result">User id</div>
+        <div class="cell leaderboard-cell result">Highscore</div>
+        
+    </div>
+    <div *ngFor="let user of leaderboard" class="row">
+        <div class="cell leaderboard-cell result">{{user[0]}}</div>
+        <div class="cell leaderboard-cell"> {{user[1]}}</div>
+        <div class="cell leaderboard-cell"> {{user[2]}}</div>
+    </div>
+</div>
+
+<br><br><br><br>
+<button (click)="this.router.navigate(['menu'])" class="action-button">
+    Back
+</button>

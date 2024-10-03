@@ -1,0 +1,12 @@
+Q:\Onboarding app\Yamb\DiceThrower.Interfaces\bin\Debug\net8.0\win-x64\DiceThrower.Interfaces.deps.json
+Q:\Onboarding app\Yamb\DiceThrower.Interfaces\bin\Debug\net8.0\win-x64\DiceThrower.Interfaces.dll
+Q:\Onboarding app\Yamb\DiceThrower.Interfaces\bin\Debug\net8.0\win-x64\DiceThrower.Interfaces.pdb
+Q:\Onboarding app\Yamb\DiceThrower.Interfaces\obj\Debug\net8.0\win-x64\DiceThrower.Interfaces.csproj.AssemblyReference.cache
+Q:\Onboarding app\Yamb\DiceThrower.Interfaces\obj\Debug\net8.0\win-x64\DiceThrower.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+Q:\Onboarding app\Yamb\DiceThrower.Interfaces\obj\Debug\net8.0\win-x64\DiceThrower.Interfaces.AssemblyInfoInputs.cache
+Q:\Onboarding app\Yamb\DiceThrower.Interfaces\obj\Debug\net8.0\win-x64\DiceThrower.Interfaces.AssemblyInfo.cs
+Q:\Onboarding app\Yamb\DiceThrower.Interfaces\obj\Debug\net8.0\win-x64\DiceThrower.Interfaces.csproj.CoreCompileInputs.cache
+Q:\Onboarding app\Yamb\DiceThrower.Interfaces\obj\Debug\net8.0\win-x64\DiceThrower.Interfaces.dll
+Q:\Onboarding app\Yamb\DiceThrower.Interfaces\obj\Debug\net8.0\win-x64\refint\DiceThrower.Interfaces.dll
+Q:\Onboarding app\Yamb\DiceThrower.Interfaces\obj\Debug\net8.0\win-x64\DiceThrower.Interfaces.pdb
+Q:\Onboarding app\Yamb\DiceThrower.Interfaces\obj\Debug\net8.0\win-x64\ref\DiceThrower.Interfaces.dll

@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Q:\\Onboarding app\\Yamb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1C59BA58-096B-4E5A-B31C-8D864FCA6A22}|YambSheetData\\YambSheetData.csproj|q:\\onboarding app\\yamb\\yambsheetdata\\yambsheetdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C59BA58-096B-4E5A-B31C-8D864FCA6A22}|YambSheetData\\YambSheetData.csproj|solutionrelative:yambsheetdata\\yambsheetdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4088CA3A-D2B8-4808-A359-B862300704C0}|YambGame\\YambGame.csproj|q:\\onboarding app\\yamb\\yambgame\\yambgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4088CA3A-D2B8-4808-A359-B862300704C0}|YambGame\\YambGame.csproj|solutionrelative:yambgame\\yambgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C301381-D12C-4DD0-A6D0-C2E7CF3FF602}|YambUserData\\YambUserData.csproj|q:\\onboarding app\\yamb\\yambuserdata\\yambuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C301381-D12C-4DD0-A6D0-C2E7CF3FF602}|YambUserData\\YambUserData.csproj|solutionrelative:yambuserdata\\yambuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{692D1117-521D-48BD-A7EC-16703398BD98}|YambStatistics\\YambStatistics.csproj|q:\\onboarding app\\yamb\\yambstatistics\\controllers\\yambstatisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{692D1117-521D-48BD-A7EC-16703398BD98}|YambStatistics\\YambStatistics.csproj|solutionrelative:yambstatistics\\controllers\\yambstatisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF232256-549A-420E-BFE4-4CEBDA81E709}|CustomMetrics\\CustomMetrics.csproj|q:\\onboarding app\\yamb\\custommetrics\\custommetrics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF232256-549A-420E-BFE4-4CEBDA81E709}|CustomMetrics\\CustomMetrics.csproj|solutionrelative:custommetrics\\custommetrics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D691B9B9-43AD-4AE2-BD48-5EA303A37CD1}|DiceThrower\\DiceThrower.csproj|q:\\onboarding app\\yamb\\dicethrower\\dicethrower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D691B9B9-43AD-4AE2-BD48-5EA303A37CD1}|DiceThrower\\DiceThrower.csproj|solutionrelative:dicethrower\\dicethrower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "YambStatisticsController.cs",
+              "DocumentMoniker": "Q:\\Onboarding app\\Yamb\\YambStatistics\\Controllers\\YambStatisticsController.cs",
+              "RelativeDocumentMoniker": "YambStatistics\\Controllers\\YambStatisticsController.cs",
+              "ToolTip": "Q:\\Onboarding app\\Yamb\\YambStatistics\\Controllers\\YambStatisticsController.cs",
+              "RelativeToolTip": "YambStatistics\\Controllers\\YambStatisticsController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwDIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T12:40:49.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "YambUserData.cs",
+              "DocumentMoniker": "Q:\\Onboarding app\\Yamb\\YambUserData\\YambUserData.cs",
+              "RelativeDocumentMoniker": "YambUserData\\YambUserData.cs",
+              "ToolTip": "Q:\\Onboarding app\\Yamb\\YambUserData\\YambUserData.cs",
+              "RelativeToolTip": "YambUserData\\YambUserData.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwD0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T12:40:04.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "YambSheetData.cs",
+              "DocumentMoniker": "Q:\\Onboarding app\\Yamb\\YambSheetData\\YambSheetData.cs",
+              "RelativeDocumentMoniker": "YambSheetData\\YambSheetData.cs",
+              "ToolTip": "Q:\\Onboarding app\\Yamb\\YambSheetData\\YambSheetData.cs",
+              "RelativeToolTip": "YambSheetData\\YambSheetData.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAwwHkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T12:39:59.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "YambGame.cs",
+              "DocumentMoniker": "Q:\\Onboarding app\\Yamb\\YambGame\\YambGame.cs",
+              "RelativeDocumentMoniker": "YambGame\\YambGame.cs",
+              "ToolTip": "Q:\\Onboarding app\\Yamb\\YambGame\\YambGame.cs",
+              "RelativeToolTip": "YambGame\\YambGame.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwCgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T12:39:49.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DiceThrower.cs",
+              "DocumentMoniker": "Q:\\Onboarding app\\Yamb\\DiceThrower\\DiceThrower.cs",
+              "RelativeDocumentMoniker": "DiceThrower\\DiceThrower.cs",
+              "ToolTip": "Q:\\Onboarding app\\Yamb\\DiceThrower\\DiceThrower.cs",
+              "RelativeToolTip": "DiceThrower\\DiceThrower.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwDMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T12:39:44.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomMetrics.cs",
+              "DocumentMoniker": "Q:\\Onboarding app\\Yamb\\CustomMetrics\\CustomMetrics.cs",
+              "RelativeDocumentMoniker": "CustomMetrics\\CustomMetrics.cs",
+              "ToolTip": "Q:\\Onboarding app\\Yamb\\CustomMetrics\\CustomMetrics.cs",
+              "RelativeToolTip": "CustomMetrics\\CustomMetrics.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA4wDoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T10:23:44.077Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

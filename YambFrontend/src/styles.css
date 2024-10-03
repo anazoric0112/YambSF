@@ -1,0 +1,113 @@
+:root{
+    --primary-color: rgba(196, 196, 196, 0.336);
+    --hover-cololr: rgba(255, 255, 255, 0.486);
+    --disabled-color: rgba(134, 134, 134, 0.452) ;
+    --bg-color: rgba(82, 82, 82, 0.438);
+    --secondary-color: rgba(255, 255, 255, 0.685);
+
+    --primary-text-color: white;
+    --secondary-text-color: rgba(67, 76, 253, 0.349);
+    --selected-dice-color: rgba(67, 76, 253, 0.349);
+    --selected-dice-hover-color: rgba(122, 129, 255, 0.349);
+}
+
+html{
+    
+    background: linear-gradient(45deg, rgba(254,144,36,1) 15%, #CC7DBA 50%, rgba(67,75,253,1) 100%) ;
+    height: 100%;
+}
+
+body{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    color: var(--primary-color)
+}
+
+.sheet {
+    font-size: 70px !important;
+    width: 100%;
+}
+
+.result {
+    background-color: var(--secondary-text-color) !important;
+    color: white !important;
+    border: 2px solid white !important;
+    padding: 5px;
+    font-size: 60px;
+    width: 187px !important
+}
+
+.cell {
+    background-color: var(--primary-color);
+    color: white;
+    border: 1px solid white;
+    margin: 0;
+    border-radius: 20px;
+    display: inline-block;
+    width: 200px;
+}
+
+.leaderboard-cell {
+    padding: 10px;
+    font-size: 30px;
+    width: 200px !important;
+}
+
+img {
+    height: 90%;
+}
+
+button{
+    border: 2px solid white;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 60px;
+    border-radius: 20px;
+}
+input[type="text"] {
+    border: 2px solid white;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 60px;
+    border-radius: 20px;
+    height: 100px;
+    width: 300px;
+    align-items: center;
+    text-align: center;
+}
+
+.dice {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 5px;
+}
+
+.action-button{
+    padding: 30px;
+}
+
+button:hover, .cell:hover{
+    background-color: var(--hover-cololr);
+}
+button:active, .cell:active{
+    background-color: var(--hover-cololr);
+}
+
+.saved {
+    background-color: var(--selected-dice-color);
+}
+.saved:hover {
+    background-color: var(--selected-dice-hover-color);
+}
+
+button[disabled], button[disabled]:hover, button[disabled]:active{
+    background-color: var(--disabled-color);
+}
+
+h1 {
+    color: white !important
+}
